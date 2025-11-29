@@ -67,6 +67,7 @@ A bar chart is used to compare the retention rate (Left vs. Stayed) across diffe
    - This visualization compares the employee turnover rate across various departments (e.g., Sales, R&D, Technical, Management).
 
 <h3>Insight:</h3> <p>The analysis reveals which departments have a disproportionately high attrition rate,<br> allowing HR to focus retention efforts on specific areas, such as the Technical or Support departments.</p>
+<img width="1200" height="500" alt="HRImpact of Department on Employee Retention" src="https://github.com/user-attachments/assets/c1a93b77-c1f6-4617-892e-8331f4a9eeee" />
 
 
 <h3>- 3. Other Corelations</h3>
