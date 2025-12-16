@@ -75,20 +75,26 @@ Accuracy,~80.15%
 Interpretation,The model correctly predicts whether an employee will leave or stay approximately 8 out of 10 times.
 ```
 
-<p>This accuracy provides a strong foundation for an early warning system that HR can use to identify<br> employees at risk of leaving and intervene proactively.</p>
-## 🚀 How to Run
-1.  **Clone the repository:**
-    ```bash
+<p>This accuracy provides a strong foundation for an early warning system that HR can use to identify<br> employees at risk of leaving and intervene proactively.</p> <br>
+
+ ## How to Run <br>
+ **Clone the repository:**
+ ```bash
+
     git clone [https://github.com/Miltondevx/hr-analysis.git](https://github.com/Miltondevx/hr-analysis.git)
+
     cd hr-analysis
     ```
-2.  **Install dependencies:**
+
+ **Install dependencies:**
+
     ```bash
     pip install -r requirements.txt
     ```
-3.  **Run the notebook:**
+ **Run the notebook:**
     ```bash
     jupyter notebook notebooks/HR_Analysis.ipynb
+
     ```
 
 ## 📈 Future Improvements
