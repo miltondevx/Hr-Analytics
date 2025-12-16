@@ -1,53 +1,28 @@
-# HR Employee Retention Analysis & Prediction
+# HR Retention Analysis & Prediction
 
-📝 Project Overview
-This project focuses on a crucial aspect of Human Resources (HR) management: Employee Retention.   
+## 📌 Project Overview
+This project analyzes employee turnover data to identify the key factors driving attrition. Using **Logistic Regression**, I built a model to predict whether an employee will leave the company based on satisfaction levels, salary, and tenure.
 
- By analyzing a dataset of current and past employees. 
+**Goal:** Provide actionable insights to HR teams to improve retention rates.
 
-<p>the goal is to identify key factors that influence an employee' decision to leave<br> the company
-and to build a predictive model to forecast future attrition.</p>
+## 📊 Key Insights & Results
+* **Retention Rate:** The dataset showed a retention rate of **76.19%**, while **23.81%** of employees left.
+* **Salary Impact:** Exploratory Data Analysis (EDA) revealed that employees in the **'low' salary** bracket had the highest churn rate.
+* **Model Performance:** The Logistic Regression model achieved an accuracy of **80.16%** on the test dataset.
 
- <h3>The analysis follows a structured approach:</h3>
+## 🛠️ Technologies Used
+* **Python 3.9+**
+* **Pandas & NumPy:** Data cleaning and manipulation (including numerical encoding of salary categories).
+* **Matplotlib & Seaborn:** Visualizing retention impact and salary distributions.
+* **Scikit-Learn:** Logistic Regression implementation and model evaluation.
 
-- Exploratory Data Analysis (EDA)
-
-- Data Visualization 
-
-- Model Building (Logistic Regression) 
-
-- Accuracy Measurement.
-
-<h3>Key Objectives</h3>
-
-- Identify variables (e.g., salary, department, work-life balance)<br> that have the most significant impact on employee turnover.
-
-- Visualize the correlation between key features and the retention rate.
-
-- Develop a Logistic Regression model to predict if an employee will leave the company.
-
-- Measure and evaluate the model's accuracy.
-
-<h3>⚙️ Setup and Installation</h3> 
-
-- To run this project locally, you will need a Python environment with the following libraries installed.
-
-<h3>Prerequisites</h3>
-  - Python 3.x<br>  
-  - Jupyter Notebook (or an IDE like VS Code, Spyder)
-
-<h3>Installation</h3>
-  Clone the repository and install the required packages using pip:
-
-  ```
-    git clone https://github.com/your-username/hr-retention-analysis.git 
-    cd hr-retention-analysis
-    pip install pandas numpy matplotlib seaborn scikit-learn
- ```
-
-<h3>Files in this Repository</h3>
-
-hr_analysis_.ipynb: The main Jupyter Notebook containing all the data cleaning, EDA, visualizations,<br> model training, and evaluation steps.
+## 📂 Project Structure
+├── data/ # Raw HR dataset. <br> 
+├── notebooks/ # Jupyter Notebooks for EDA and Modeling. <br>
+├── src/ # Python scripts for preprocessing. <br>
+├── images/ # Visualizations (Confusion Matrix, Retention Charts). <br>
+├── requirements.txt # Python dependencies. <br>
+└── README.md.
 
 [HR_comma_sep.csv](HR_comma_sep.csv): The raw dataset used for the analysis (please ensure this file is<br> included or link to its source).
 
@@ -101,5 +76,22 @@ Interpretation,The model correctly predicts whether an employee will leave or st
 ```
 
 <p>This accuracy provides a strong foundation for an early warning system that HR can use to identify<br> employees at risk of leaving and intervene proactively.</p>
+## 🚀 How to Run
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Miltondevx/hr-analysis.git](https://github.com/Miltondevx/hr-analysis.git)
+    cd hr-analysis
+    ```
+2.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Run the notebook:**
+    ```bash
+    jupyter notebook notebooks/HR_Analysis.ipynb
+    ```
 
+## 📈 Future Improvements
+* Test Random Forest and XGBoost to improve accuracy beyond 80%.
+* Deploy the model using Streamlit for a user-friendly HR dashboard.
 
