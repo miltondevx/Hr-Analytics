@@ -1,22 +1,22 @@
 # HR Retention Analysis & Prediction
 
-## 📌 Project Overview
+##  Project Overview
 This project analyzes employee turnover data to identify the key factors driving attrition. Using **Logistic Regression**, I built a model to predict whether an employee will leave the company based on satisfaction levels, salary, and tenure.
 
 **Goal:** Provide actionable insights to HR teams to improve retention rates.
 
-## 📊 Key Insights & Results
+##  Key Insights & Results
 * **Retention Rate:** The dataset showed a retention rate of **76.19%**, while **23.81%** of employees left.
 * **Salary Impact:** Exploratory Data Analysis (EDA) revealed that employees in the **'low' salary** bracket had the highest churn rate.
 * **Model Performance:** The Logistic Regression model achieved an accuracy of **80.16%** on the test dataset.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 * **Python 3.9+**
 * **Pandas & NumPy:** Data cleaning and manipulation (including numerical encoding of salary categories).
 * **Matplotlib & Seaborn:** Visualizing retention impact and salary distributions.
 * **Scikit-Learn:** Logistic Regression implementation and model evaluation.
 
-## 📂 Project Structure
+##  Project Structure
 ├── data/ # Raw HR dataset. <br> 
 ├── notebooks/ # Jupyter Notebooks for EDA and Modeling. <br>
 ├── src/ # Python scripts for preprocessing. <br>
@@ -26,7 +26,7 @@ This project analyzes employee turnover data to identify the key factors driving
 
 [HR_comma_sep.csv](HR_comma_sep.csv): The raw dataset used for the analysis (please ensure this file is<br> included or link to its source).
 
-<h3>🖼️ Key Visualizations</h3>
+<h3> Key Visualizations</h3>
 <p>The visualizations section highlights critical relationships found during the Exploratory Data Analysis (EDA).<br> These charts provide clear insights into which employee characteristics correlate most strongly with the decision to leave the company.</p>
 
 <h3>1. Impact of Salary on Retention</h3>
@@ -53,7 +53,7 @@ Additional plots likely showcase relationships between:
 
 **Time Spent at Company vs. Retention:** To identify critical churn points based on tenure.
 
-<h3>🧠 Model Building and Results</h3>
+<h3> Model Building and Results</h3>
 
 <p>Based on the insights gathered from the EDA and visualizations (particularly features like Salary and Department)<br> a Logistic Regression model was built to predict employee retention.</p>
 
@@ -79,25 +79,23 @@ Interpretation,The model correctly predicts whether an employee will leave or st
 
  ## How to Run <br>
  **Clone the repository:**
- ```bash
-
+ ```
     git clone [https://github.com/Miltondevx/hr-analysis.git](https://github.com/Miltondevx/hr-analysis.git)
-
     cd hr-analysis
     ```
 
- **Install dependencies:**
+  **Install dependencies:**
 
-    ```bash
+    ```
     pip install -r requirements.txt
     ```
  **Run the notebook:**
-    ```bash
+    ```
     jupyter notebook notebooks/HR_Analysis.ipynb
 
     ```
 
-## 📈 Future Improvements
+## Future Improvements
 * Test Random Forest and XGBoost to improve accuracy beyond 80%.
 * Deploy the model using Streamlit for a user-friendly HR dashboard.
 
